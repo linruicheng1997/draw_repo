@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-08T10:13:06.841Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="2hWtbyBIfykIJlwSrvjP" version="24.2.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-08T10:32:32.732Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36" etag="ilSRDFWkUeOf98sHkCil" version="24.2.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1434" dy="746" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -190,6 +190,49 @@
         </mxCell>
         <mxCell id="bKnim7tt_kh4DXGFDm_v-73" value="&lt;b&gt;前提：&lt;/b&gt;&lt;div&gt;使用JWT生成令牌，每次登录成功都会存储用户的登录Token&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="536" y="1475" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bKnim7tt_kh4DXGFDm_v-74" target="bKnim7tt_kh4DXGFDm_v-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-74" value="开启异步线程&lt;div&gt;（定时器）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="136" y="2439" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-75" value="正常授权" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="342" y="2657" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-76" value="删除授权文件&lt;div&gt;导入授权按钮置灰&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="136" y="2657" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bKnim7tt_kh4DXGFDm_v-78" target="bKnim7tt_kh4DXGFDm_v-76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-84" value="Yes" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bKnim7tt_kh4DXGFDm_v-82">
+          <mxGeometry x="-0.1293" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-83" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bKnim7tt_kh4DXGFDm_v-78" target="bKnim7tt_kh4DXGFDm_v-75">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-85" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="bKnim7tt_kh4DXGFDm_v-83">
+          <mxGeometry x="-0.5102" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-78" value="是否到期?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="136" y="2534" width="119" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-80" value="&lt;b&gt;前提：&lt;/b&gt;&lt;div&gt;设备授权成功与否，依赖于导入的授权文件&lt;/div&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#ffe6cc;strokeColor=#d79b00;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="432" y="2434" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="bKnim7tt_kh4DXGFDm_v-87" target="bKnim7tt_kh4DXGFDm_v-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-87" value="获取授权信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="159" y="2235" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bKnim7tt_kh4DXGFDm_v-88" value="导入授权文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="374" y="2235" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
