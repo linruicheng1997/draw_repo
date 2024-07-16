@@ -1,9 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T03:58:41.853Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.6.5" etag="RmCVb2ZtEQAd8KRcaFUU" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T04:08:48.903Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="Xnrqm_eS56h9h4aYNbN4" version="24.6.5" type="github">
   <diagram name="第 1 页" id="dgywQRsF7IRUI3lW4ife">
-    <mxGraphModel>
+    <mxGraphModel dx="2074" dy="1196" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="-62" width="639" height="636" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="-62" width="638" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-7" value="产检系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="-62" width="213" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-9" value="HIS系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="-62" width="213" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-10" value="CA系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="-62" width="213" height="67" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-137" y="5" width="213" height="568" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="76" y="5" width="213" height="568" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-15" value="登录" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="132.5" y="23" width="100" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-18" value="CA_token&lt;div&gt;获取并认证&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="122" y="81" width="126" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-19" value="认证成功" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="338" y="81" width="126" height="69" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-20" value="登录成功&lt;div&gt;携带CA数据&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="128" y="193" width="120" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-21" value="" style="edgeStyle=none;orthogonalLoop=1;jettySize=auto;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HmkbGZGIrOLmBcKnqOet-18" target="HmkbGZGIrOLmBcKnqOet-19">
+          <mxGeometry width="140" relative="1" as="geometry">
+            <mxPoint x="195" y="296" as="sourcePoint" />
+            <mxPoint x="335" y="296" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
