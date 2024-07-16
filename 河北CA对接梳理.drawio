@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T05:44:41.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LJz1LggrUYwFIqYWuxIz" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T05:45:18.404Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="ALi9s1Ia8ldM2l1UobBK" version="24.6.5" type="github">
   <diagram name="第 1 页" id="dgywQRsF7IRUI3lW4ife">
     <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="HmkbGZGIrOLmBcKnqOet-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-137" y="-62" width="638" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="HmkbGZGIrOLmBcKnqOet-7" value="产检系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-7" value="产检本系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-137" y="-62" width="213" height="67" as="geometry" />
         </mxCell>
         <mxCell id="HmkbGZGIrOLmBcKnqOet-9" value="HIS系统" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -85,7 +85,7 @@
         <mxCell id="HmkbGZGIrOLmBcKnqOet-36" value="验证电子签章合法性&lt;div&gt;VerifyAndShowSealWithResult&lt;/div&gt;&lt;div&gt;RemoteSign.signatureVerify&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-130.5" y="260" width="200" height="80.5" as="geometry" />
         </mxCell>
-        <mxCell id="HmkbGZGIrOLmBcKnqOet-38" value="保存电子签章数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-38" value="保存或修改电子签章数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-110.5" y="380" width="160" height="39" as="geometry" />
         </mxCell>
         <mxCell id="HmkbGZGIrOLmBcKnqOet-41" value="查看表单电子签章" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
