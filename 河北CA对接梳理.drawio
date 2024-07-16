@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-16T05:31:45.022Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="jqhdGTB72OrXV5yMdsqN" version="24.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-16T05:44:41.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="LJz1LggrUYwFIqYWuxIz" version="24.6.5" type="github">
   <diagram name="第 1 页" id="dgywQRsF7IRUI3lW4ife">
     <mxGraphModel dx="2074" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -77,6 +77,56 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-10" y="110" as="sourcePoint" />
             <mxPoint x="40" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-35" value="获取电子签章&lt;div&gt;SignAndSealForResult1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110.5" y="180" width="160" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-36" value="验证电子签章合法性&lt;div&gt;VerifyAndShowSealWithResult&lt;/div&gt;&lt;div&gt;RemoteSign.signatureVerify&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-130.5" y="260" width="200" height="80.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-38" value="保存电子签章数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110.5" y="380" width="160" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-41" value="查看表单电子签章" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-110.5" y="460" width="160" height="39" as="geometry" />
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-42" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="HmkbGZGIrOLmBcKnqOet-35" target="HmkbGZGIrOLmBcKnqOet-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="230" as="sourcePoint" />
+            <mxPoint x="290" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-43" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-31" y="339" as="sourcePoint" />
+            <mxPoint x="-31" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-44" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-31" y="419" as="sourcePoint" />
+            <mxPoint x="-31" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-45" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="HmkbGZGIrOLmBcKnqOet-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="480" as="sourcePoint" />
+            <mxPoint y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-46" value="查看时检验是否合法" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="HmkbGZGIrOLmBcKnqOet-45">
+          <mxGeometry x="-0.4153" y="23" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HmkbGZGIrOLmBcKnqOet-47" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HmkbGZGIrOLmBcKnqOet-20" target="HmkbGZGIrOLmBcKnqOet-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-20" y="229" as="sourcePoint" />
+            <mxPoint x="-20" y="270" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
